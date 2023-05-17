@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Piazzolla:wght@200;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Piazzolla', serif;
+}
+
+:root{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.tx-bg{
+    font-size: 1.8rem;
+}
+.tx-md{
+    font-size: 1.6rem;
+}
+.header{
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/2375.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    position: relative;
+}
+
+.main-content{
+    margin-bottom: 4rem;
+}
+.footer{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/2375.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    margin-top: auto;
+
+}
+.footer p{
+    margin :0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 6rem;
+
+}
+
+
+.shadow-right{
+    box-shadow: 10px 0 20px -5px rgba(201, 200, 200, 0.75);
+}
+
+.form-div{
+    margin-bottom: 4rem;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,202,110,0.8894278474176045) 0%, rgba(0,212,255,1) 100%);
+}

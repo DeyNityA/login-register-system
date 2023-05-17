@@ -1,0 +1,25 @@
+{
+  "name": "registration-form",
+  "version": "1.0.0",
+  "description": "mern poject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nityananda Dey",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.1",
+    "mongoose-unique-validator": "^4.0.0",
+    "password-validator": "^5.3.0",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  }
+}
